@@ -1,0 +1,15 @@
+islem=input("yapmak istediginiz islemi giriniz:")
+sayi1=int(input("sayi1:"))
+sayi2=int(input("sayi2:"))
+if islem=="toplama":
+    sonuc=int(sayi1)+int(sayi2)
+    print("sonuc:",str(sonuc))
+elif islem=="çıkarma":
+    sonuc=int(sayi1)-int(sayi2)
+    print("sonuc", str(sonuc))
+elif islem=="çarpma":
+    sonuc=int(sayi1)*int(sayi2)
+    print("sonuc", str(sonuc))
+elif islem=="bölme":
+    sonuc=int(sayi1)/int(sayi2)
+    print("sonuc", str(sonuc))
